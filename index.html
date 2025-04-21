@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="player">
+    <h1>🎶 My Music Player</h1>
+    <p id="song-title">Now Playing: --</p>
+    
+    <audio id="audio-player" src=""></audio>
+
+    <div class="controls">
+      <button onclick="prevSong()">⏮️</button>
+      <button onclick="togglePlay()">▶️/⏸️</button>
+      <button onclick="nextSong()">⏭️</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
